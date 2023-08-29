@@ -1,1 +1,1 @@
-# hero-page
+In this Odin project, we will attempt to recreate a website shown on an image from scratch using everything we have learned so far.
