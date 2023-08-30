@@ -180,3 +180,50 @@ body >* {
 }
 
 /*section d styling */
+
+.sectiond {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.sectiond .bluebox {
+    background-color:#3882F6;
+    border-radius: 5px;
+    padding: 20px 90px;
+    margin: 50px;
+    width: 1000px;
+}
+
+.sectiond .title {
+    font-size: 24px;
+    font-weight: bold;
+    color: white;
+}
+
+.sectiond .subtext {
+    font-size: 14px;
+    color: white;
+}
+
+.container {
+    display: flex;
+    gap: 20px;
+    justify-content: space-between;
+}
+
+.sectiond .right {
+    display: flex;
+    align-items: center;
+}
+
+.sectiond button {
+    color: white;
+    border: 1px solid white;
+    border-radius: 3px;
+    background-color:#3882F6;
+    padding: 2px 10px;
+}
+
+
+
