@@ -150,3 +150,33 @@ body >* {
 .imageandtext .subtext {
     width: 150px;
 }
+
+/* section c styling */
+
+.sectionc {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    padding: 20px 0px;
+    background-color: #E5E7EB;
+    border: 3px solid black;
+}
+
+.quote {
+    font-style: italic;
+    font-weight: 300;
+    font-size: 36px;
+    color: #1F2937;
+    padding: 0px 200px 0px 200px;
+}
+
+.author {
+    display: flex;
+    justify-content: flex-end;
+    width: 1200px;
+    font-size: 18px;
+    padding-right: 20px;
+}
+
+/*section d styling */
