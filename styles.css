@@ -6,6 +6,7 @@ body {
     height: 100vh;
     display: flex;
     flex-direction: column;
+    margin: 0;
 }
 
 .header {
@@ -16,11 +17,27 @@ body {
 .container {
     display: flex;
     flex-direction: column;
+    gap: 30px;
 }
 
 .headertop {
     display: flex;
     justify-content: space-between;
+    
+}
+
+.logo {
+    font-size: 24px;
+    color: #F9FAF8;
+}
+
+ul {
+    display: flex;
+    gap: 8px;
+    list-style: none;
+    margin: 0;
+    color:#b3b9c3;
+    font-size: 14px;
 }
 
 .headerbottom {
@@ -28,19 +45,13 @@ body {
     gap: 8px;
 }
 
-.placeholder {
-    flex-shrink: 0;
+.modal, .placeholder {
+   width: 370px; 
 }
 
-ul {
-    display: flex;
-    list-style: none;
-    margin: 0;
-    gap: 8px;
-}
 
 /*Decided to apply flex 1 to all body elements except the footer. I will probably have 
-to find a solution to apply similar styles, flex or others, to entire groups of elements. */
+to find a solution to apply similar styles, flex or others, to group a lot of elements. */
 
 body >* {
     flex: 1;
@@ -48,4 +59,18 @@ body >* {
 
 .footer {
     flex-grow: 0;
+}
+
+/* Some colors and font styles here */
+
+.header , .footer {
+    background-color: #1F2937;
+}
+
+.sectionb , .sectiond {
+    background-color: white;
+}
+
+.sectionc {
+    background-color: #E5E7EB;
 }
