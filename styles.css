@@ -12,6 +12,7 @@ body {
 .header {
     display: flex;
     justify-content: center;
+    padding: 5px 60px 60px 60px;
 }
 
 .container {
@@ -33,11 +34,11 @@ body {
 
 ul {
     display: flex;
-    gap: 8px;
+    gap: 15px;
     list-style: none;
     margin: 0;
-    color:#b3b9c3;
-    font-size: 14px;
+    color:#E5E7EB;
+    font-size: 18px;
 }
 
 .headerbottom {
@@ -46,9 +47,42 @@ ul {
 }
 
 .modal, .placeholder {
-   width: 370px; 
+   width: 450px; 
 }
 
+.placeholder .subtext {
+    color: #E5E7EB;
+    font-size: 18px;
+}
+
+div.placeholder {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #797d85;
+}
+
+.modal .title {
+    font-size: 48px;
+    font-weight: 800;
+    color: #F9FAF8;
+}
+
+.modal .text {
+    font-size: 18px;
+    font-weight: 800;
+    color: #E5E7EB;
+}
+
+.modal button {
+    margin-top: 8px;
+    margin-bottom: 8px;
+    padding: 4px 20px;
+    background-color: #3882F6;
+    border: none;
+    border-radius: 3px;
+    color: #FAF9F8;
+}
 
 /*Decided to apply flex 1 to all body elements except the footer. I will probably have 
 to find a solution to apply similar styles, flex or others, to group a lot of elements. */
