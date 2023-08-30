@@ -23,6 +23,15 @@ body {
     justify-content: space-between;
 }
 
+.headerbottom {
+    display: flex;
+    gap: 8px;
+}
+
+.placeholder {
+    flex-shrink: 0;
+}
+
 ul {
     display: flex;
     list-style: none;
@@ -30,6 +39,8 @@ ul {
     gap: 8px;
 }
 
+/*Decided to apply flex 1 to all body elements except the footer. I will probably have 
+to find a solution to apply similar styles, flex or others, to entire groups of elements. */
 
 body >* {
     flex: 1;
